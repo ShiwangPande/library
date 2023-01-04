@@ -153,47 +153,47 @@ function Content() {
                 <div className="library">
                     <div className='head'>Digital Library</div>
                     <div className="tagline">Explore the world of books</div>
-                </div> 
-                    <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>1st semester</strong></h2>
-                    <MDBTabs className='mb-3'>
-                        <MDBTabsItem>
-                            <MDBTabsLink onClick={() => handleBasicClick1('tab1')} active={basicActive1 === 'tab1'}>
-                                Syllabus
-                            </MDBTabsLink>
-                        </MDBTabsItem>
-                        <MDBTabsItem>
-                            <MDBTabsLink onClick={() => handleBasicClick1('tab2')} active={basicActive1 === 'tab2'}>
-                                Books
-                            </MDBTabsLink>
-                        </MDBTabsItem>
-                        <MDBTabsItem>
-                            <MDBTabsLink onClick={() => handleBasicClick1('tab3')} active={basicActive1 === 'tab3'}>
-                                Previous Year Papers
-                            </MDBTabsLink>
-                        </MDBTabsItem>
-                    </MDBTabs>
+                </div>
+                <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>1st semester</strong></h2>
+                <MDBTabs className='mb-3'>
+                    <MDBTabsItem>
+                        <MDBTabsLink onClick={() => handleBasicClick1('tab1')} active={basicActive1 === 'tab1'}>
+                            Syllabus
+                        </MDBTabsLink>
+                    </MDBTabsItem>
+                    <MDBTabsItem>
+                        <MDBTabsLink onClick={() => handleBasicClick1('tab2')} active={basicActive1 === 'tab2'}>
+                            Books
+                        </MDBTabsLink>
+                    </MDBTabsItem>
+                    <MDBTabsItem>
+                        <MDBTabsLink onClick={() => handleBasicClick1('tab3')} active={basicActive1 === 'tab3'}>
+                            Previous Year Papers
+                        </MDBTabsLink>
+                    </MDBTabsItem>
+                </MDBTabs>
 
-                    <MDBTabsContent>
-                        <MDBTabsPane show={basicActive1 === 'tab1'}>
-                            <div className="cardss-list" style={{ justifyContent: 'center' }}>
-                                <div className='cards'>
-                                    <a href='https://drive.google.com/file/d/1lBtjmEvGk-1ulpV8kw1TABt8-LOMsnjR/view?usp=sharing' target="_blank">
-                                        <img src="https://www.linkpicture.com/q/Yellow-Notebook-Cutout-Notebook-Book-Cover-3.jpg" alt="" style={{ height: "213px" }} /> </a>
+                <MDBTabsContent>
+                    <MDBTabsPane show={basicActive1 === 'tab1'}>
+                        <div className="cardss-list" style={{ justifyContent: 'center' }}>
+                            <div className='cards'>
+                                <a href='https://drive.google.com/file/d/1lBtjmEvGk-1ulpV8kw1TABt8-LOMsnjR/view?usp=sharing' target="_blank">
+                                    <img src="https://www.linkpicture.com/q/Yellow-Notebook-Cutout-Notebook-Book-Cover-3.jpg" alt="" style={{ height: "213px" }} /> </a>
 
-                                </div></div>
+                            </div></div>
 
 
-                        </MDBTabsPane>
-                        <MDBTabsPane show={basicActive1 === 'tab2'} >
-                            <div className="cardss-list" >
-                                <Card /></div>
-                        </MDBTabsPane>
-                        <MDBTabsPane show={basicActive1 === 'tab3'}>
-                            <div className="cardss-list" >
-                                <Pyq1 /></div>
+                    </MDBTabsPane>
+                    <MDBTabsPane show={basicActive1 === 'tab2'} >
+                        <div className="cardss-list" >
+                            <Card /></div>
+                    </MDBTabsPane>
+                    <MDBTabsPane show={basicActive1 === 'tab3'}>
+                        <div className="cardss-list" >
+                            <Pyq1 /></div>
 
-                        </MDBTabsPane>
-                    </MDBTabsContent>
+                    </MDBTabsPane>
+                </MDBTabsContent>
                 {/* <div className="cardss-list" >
                         <Card /></div> */}
                 <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>2nd semester</strong></h2>
@@ -499,6 +499,7 @@ function Content() {
                     </p>
 
                 </div>
+           
             </Swiper>
         </div>
 
