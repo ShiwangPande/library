@@ -6,7 +6,7 @@ import logo from "../images/logo.png"
 function Clock() {
     return (
         <body>
-            <img className='logo1' src={logo} alt="" />
+            <a href="https://www.shiwangpandey.in/"><img className='logo1' src={logo} alt="" /></a>
             <div class="box">
                 <div class="clock-body">
                     <div class="roof"></div>
