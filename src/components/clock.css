@@ -17,6 +17,10 @@ body {
   position: absolute;
   left: -163px;
   top: 15px;
+  cursor: pointer;
+}
+.logo1:hover {
+  transform: scale(1.2);
 }
 
 @keyframes spinleft {

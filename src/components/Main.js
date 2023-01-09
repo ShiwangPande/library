@@ -142,10 +142,14 @@ export default function App() {
           {/* <div className='head'>Digital Library</div>
             <div className="tagline">Explore the world of books</div> */}
           {/* </div> */}
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>1st semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>1st semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick1('tab1')} active={basicActive1 === 'tab1'}>
@@ -185,10 +189,15 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
 
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>2nd semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>2nd semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick2('tab4')} active={basicActive2 === 'tab4'}>
@@ -229,10 +238,14 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong> 3rd semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong> 3rd semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick3('tab7')} active={basicActive3 === 'tab7'}>
@@ -273,10 +286,14 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>4th semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>4th semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick4('tab10')} active={basicActive4 === 'tab10'}>
@@ -317,10 +334,14 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>5th semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>5th semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick5('tab13')} active={basicActive5 === 'tab13'}>
@@ -360,10 +381,14 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>6th semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>6th semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick6('tab16')} active={basicActive6 === 'tab16'}>
@@ -403,10 +428,14 @@ export default function App() {
 
             </MDBTabsPane>
           </MDBTabsContent>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>7th semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>7th semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick7('tab19')} active={basicActive7 === 'tab19'}>
@@ -424,7 +453,11 @@ export default function App() {
               </MDBTabsLink>
             </MDBTabsItem>
           </MDBTabs>
-
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
           <MDBTabsContent>
             <MDBTabsPane show={basicActive7 === 'tab19'}>
               <div className="cardss-list" style={{ justifyContent: 'center' }}>
@@ -449,7 +482,7 @@ export default function App() {
 
         </SwiperSlide>
         <SwiperSlide>
-          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: 'rgb(57 62 70)', color: "#eeeeee" }}><strong>8th semester</strong></h2>
+          <h2 className='m-0 pb-3 pt-3 d-flex align-items-center justify-content-center' style={{ backgroundColor: '#101313', color: "#eeeeee" }}><strong>8th semester</strong></h2>
           <MDBTabs className='mb-3'>
             <MDBTabsItem>
               <MDBTabsLink onClick={() => handleBasicClick8('tab22')} active={basicActive8 === 'tab22'}>
@@ -471,7 +504,7 @@ export default function App() {
                         <Card7 /></div> */}
           <MDBTabsContent>
             <MDBTabsPane show={basicActive8 === 'tab22'}>
-              <div className="cardss-list" style={{ justifyContent: 'center', height: "63vh" }}>
+              <div className="cardss-list" style={{ justifyContent: 'center', height: "61.4vh" }}>
                 <div className='cards'>
                   <a href='https://drive.google.com/file/d/1Yg3SAk9p7QlnZceFopb31mQ6mp4Ec4rL/view?usp=sharing' target="_blank">
                     <img src="https://www.linkpicture.com/q/Yellow-Notebook-Cutout-Notebook-Book-Cover-8.jpg" alt="" style={{ height: "213px" }} /> </a>

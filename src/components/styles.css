@@ -56,6 +56,10 @@ body {
 .swiper-vertical > .swiper-pagination-bullets {
   right: 30px;
 }
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical > .swiper-pagination-bullets {
+  right: 30px;
+}
 /* .swiper-pagination-vertical.swiper-pagination-bullets,
 .swiper-vertical > .swiper-pagination-bullets {
   right: 10px;
