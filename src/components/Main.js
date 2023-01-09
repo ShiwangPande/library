@@ -503,7 +503,7 @@ export default function App() {
                         <Card7 /></div> */}
           <MDBTabsContent>
             <MDBTabsPane show={basicActive8 === 'tab22'}>
-              <div className="cardss-list" style={{ justifyContent: 'center', height: "60vh" }}>
+              <div className="cardss-list" style={{ justifyContent: 'center', height: "63vh" }}>
                 <div className='cards'>
                   <a href='https://drive.google.com/file/d/1Yg3SAk9p7QlnZceFopb31mQ6mp4Ec4rL/view?usp=sharing' target="_blank">
                     <img src="https://www.linkpicture.com/q/Yellow-Notebook-Cutout-Notebook-Book-Cover-8.jpg" alt="" style={{ height: "213px" }} /> </a>
