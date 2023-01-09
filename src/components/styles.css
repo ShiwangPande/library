@@ -79,7 +79,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .swiper-pagination-vertical.swiper-pagination-bullets,
   .swiper-vertical > .swiper-pagination-bullets {
-    right: 10px;
+    /* right: 10px; */
     top: 32%;
     transform: translate3d(0px, -50%, 0);
   }
@@ -94,7 +94,7 @@ body {
   }
   .swiper-pagination-vertical.swiper-pagination-bullets,
   .swiper-vertical > .swiper-pagination-bullets {
-    right: 10px;
+    /* right: 10px; */
     top: 50%;
     transform: translate3d(0px, -50%, 0);
   }
