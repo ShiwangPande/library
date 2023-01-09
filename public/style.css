@@ -847,14 +847,7 @@ h2 {
     padding: 5px;
     width: 293px;
   }
-  body .loader {
-    height: 100%;
-    margin: auto;
-    width: 400px;
-    /* width: 100vw; */
-    cursor: progress;
-    background-color: rgb(34 40 49);
-  }
+
   .mou_line {
     /* border-start border-dark */
     border-left: none;
@@ -1183,10 +1176,7 @@ h2 {
   h3 {
     font-size: 20px;
   }
-  .Loader-page {
-    position: relative;
-    top: 300px;
-  }
+
   .footer__height {
     height: 57vh;
   }
@@ -1363,10 +1353,7 @@ h2 {
   h3 {
     font-size: 20px;
   }
-  .Loader-page {
-    position: relative;
-    top: 300px;
-  }
+
   .Home > .container,
   .container-sm {
     max-width: none;
