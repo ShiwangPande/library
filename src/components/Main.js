@@ -129,7 +129,7 @@ export default function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1550)
+    }, 3540)
   }, [])
   return (
     <>
