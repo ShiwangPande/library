@@ -1,5 +1,4 @@
 import React from 'react'
-import maths from '../../images/krezig book.png'
 
 function Card2(props1) {
     return (
@@ -46,7 +45,7 @@ function Card2(props1) {
             </div>
             <div className='cards'>
                 <a href='https://drive.google.com/file/d/1BPNFde02LudceYBSWMn5g1VgaCRnuqQ-/view?usp=sharing' target="_blank">
-                    <img src={maths} alt="" /> </a>
+                    <img src="https://i.postimg.cc/25jxxDxK/krezig-book.png" alt="" /> </a>
                 <div className='cards__stats'>
                     {/* <span>{props.id}</span> */}
                 </div>

@@ -1,23 +1,5 @@
 import React from 'react'
-import cover from '../../images/1.png'
-import CIM1 from '../../images/paper cover 8/CIM S-17.png'
-import CIM2 from '../../images/paper cover 8/CIM S-18.png'
-import CIM3 from '../../images/paper cover 8/CIM S-19.png'
-import CIM4 from '../../images/paper cover 8/CIM W-19.png'
-import FEM1 from '../../images/paper cover 8/FEM S-17.png'
-import FEM2 from '../../images/paper cover 8/FEM S-18.png'
-import FEM3 from '../../images/paper cover 8/FEM S-19.png'
-import FEM4 from '../../images/paper cover 8/FEM W-17.png'
-import RAC1 from '../../images/paper cover 8/RAC S-17.png'
-import RAC2 from '../../images/paper cover 8/RAC S-18.png'
-import RAC3 from '../../images/paper cover 8/RAC S-19.png'
-import RAC4 from '../../images/paper cover 8/RAC W-17.png'
-import RAC5 from '../../images/paper cover 8/RAC W-18.png'
-import SA1 from '../../images/paper cover 8/SA S-17.png'
-import SA2 from '../../images/paper cover 8/SA S-18.png'
-import SA3 from '../../images/paper cover 8/SA S-19.png'
-import SA4 from '../../images/paper cover 8/SA W-17.png'
-import SA5 from '../../images/paper cover 8/SA W-18.png'
+
 
 function Pyq8() {
     return (
@@ -28,7 +10,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={CIM1} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/ZRJvxMqw/CIM-S-17.png" alt=" " style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -37,7 +19,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={CIM2} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/DwbGvGDP/CIM-S-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -46,7 +28,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={CIM3} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/2j2h2rhh/CIM-S-19.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -55,7 +37,7 @@ function Pyq8() {
              https://drive.google.com/file/d/1RQkHx4Atz5MSxPHnVHIX3JUAvypNXNJc/view?usp=share_link
 
                 ' target="_blank">
-                    <img src={CIM4} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/fy2dLfDB/CIM-W-19.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -64,7 +46,7 @@ function Pyq8() {
              https://drive.google.com/file/d/1n3XCNylgDgelcHA4i9FAjeZzzj9Qcuss/view?usp=share_link
 
                 ' target="_blank">
-                    <img src={FEM1} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/MG7jRSzc/FEM-S-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -73,7 +55,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={FEM2} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/W3SFWwFT/FEM-S-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -82,7 +64,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={FEM3} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/Wbyrc894/FEM-S-19.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -91,7 +73,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={FEM4} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/tCJPcwNf/FEM-W-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -100,7 +82,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={RAC1} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/QCTD9Xrw/RAC-S-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -109,7 +91,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={RAC2} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/vB7jpcbQ/RAC-S-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -118,7 +100,7 @@ function Pyq8() {
              https://drive.google.com/file/d/1F7v8rWCst4zxDz1rpRnaJIk0ul_35-yz/view?usp=share_link
 
                 ' target="_blank">
-                    <img src={RAC3} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/BbMznkjk/RAC-S-19.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -127,7 +109,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={RAC4} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/jdS9Fx9b/RAC-W-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -136,7 +118,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={RAC5} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/pVZ4ChsC/RAC-W-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -145,7 +127,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={SA1} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/Bbqys4n2/SA-S-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -154,7 +136,7 @@ function Pyq8() {
              https://drive.google.com/file/d/1ivUnLXFjQsOCRtODP9W89T9-y2Svz8z8/view?usp=share_link
 
                 ' target="_blank">
-                    <img src={SA2} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/tgx8NBcn/SA-S-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -163,7 +145,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={SA3} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/cHG29Qq9/SA-S-19.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -172,7 +154,7 @@ function Pyq8() {
 
                 
                 ' target="_blank">
-                    <img src={SA4} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/2SPKy45k/SA-W-17.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
             <div className='cards'>
@@ -180,7 +162,7 @@ function Pyq8() {
              https://drive.google.com/file/d/1RZpl4L_Hx-LHBT3H-x0P2uL2aqbnfRso/view?usp=share_link
                 
                 ' target="_blank">
-                    <img src={SA5} alt="" style={{ height: "213px" }} /> </a>
+                    <img src="https://i.postimg.cc/Wz3nX34Y/SA-W-18.png" alt="" style={{ height: "213px" }} /> </a>
 
             </div>
 

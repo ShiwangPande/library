@@ -1,5 +1,4 @@
 import React from 'react'
-import IC from "../../images/ic engine.png";
 
 function Card6(props1) {
     return (
@@ -47,7 +46,7 @@ function Card6(props1) {
             </div>
             <div className='cards'>
                 <a href='https://drive.google.com/file/d/1E84D568R4562QZftQJW0KCKavOt3ngvU/view?usp=sharing' target="_blank">
-                    <img src={IC} alt="" /> </a>
+                    <img src="https://i.postimg.cc/59XnGfMc/ic-engine.png" alt="" /> </a>
                 <div className='cards__stats'>
                     {/* need book cover page */}
                 </div>
