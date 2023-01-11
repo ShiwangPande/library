@@ -1,9 +1,5 @@
 import React from 'react'
 
-// kom s-18   https://drive.google.com/file/d/1RY0f4koU2xCePoWkXew5BhqUdbuUxjAq/view?usp=sharing
-
-// mp w-18   https://drive.google.com/file/d/1a5Z6Ou84tcA17bUc2rvfCfsY3ELbTU4g/view?usp=share_link
-
 
 function Pyq3() {
     return (
