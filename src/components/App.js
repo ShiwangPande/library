@@ -1,12 +1,13 @@
 import Main from "./Main";
-// import Navbars from "./Navbars";
+import Navbar from "./Navbar"
 
 import React from 'react'
 
 function App() {
     return (
         <>
-            {/* <Navbars /> */}
+            {/* <Navbar /> */}
+
             <Main />
         </>
     )
